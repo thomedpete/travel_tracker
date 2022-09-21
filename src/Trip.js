@@ -1,7 +1,9 @@
 class Trip {
-constructor() {
+constructor(tripData) {
+    this.tripData = tripData
+};
+
 
 }
-}
 
-export default Trip;
+export default  Trip;
